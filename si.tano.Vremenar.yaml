@@ -51,7 +51,7 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/ntadej/Vremenar/releases/download/v0.3.1/Vremenar_0.3.1_x86_64.tar.bz2
-        sha256: 6f4dbd222d54e80fdde98fa2f167d0e90ce83b26f5b2c931a0fd23b8daef1d2f
+        url: https://github.com/ntadej/Vremenar/releases/download/v0.3.2/Vremenar_0.3.2_x86_64.tar.bz2
+        sha256: afac66e3bf630a04f43a6f10966f7a7f47fdb1a7846b64496746de8c2351485f
       - type: file
         path: si.tano.Vremenar.appdata.xml
