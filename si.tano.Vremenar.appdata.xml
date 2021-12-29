@@ -10,14 +10,14 @@
   <url type="bugtracker">https://github.com/ntadej/Vremenar/issues</url>
   <description>
     <p>
+      Supported providers are Slovenian Environment Agency (ARSO)
+      and Deutscher Wetterdienst (DWD, preliminary support).
+    </p>
+    <p>
       Display weather conditions and forecast on a map in a quick and simple way.
       Choose between general condition, precipitation radar, cloud cover, wind speed,
       temperature and hail probability maps (not all supported with all providers).
       The app also shows the weather at your current location.
-    </p>
-    <p>
-      Supported providers are Slovenian Environment Agency (ARSO)
-      and Deutscher Wetterdienst (DWD, preliminary support).
     </p>
   </description>
   <screenshots>
@@ -35,6 +35,7 @@
     <id>si.tano.Vremenar.desktop</id>
   </provides>
   <releases>
+    <release version="0.4.0" date="2021-12-29"/>
     <release version="0.3.4" date="2021-07-19"/>
     <release version="0.3.3" date="2021-06-05"/>
     <release version="0.3.2" date="2021-05-29"/>
