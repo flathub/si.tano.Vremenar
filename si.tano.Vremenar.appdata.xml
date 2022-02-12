@@ -11,23 +11,27 @@
   <description>
     <p>
       Supported providers are Slovenian Environment Agency (ARSO)
-      and Deutscher Wetterdienst (DWD, preliminary support).
+      and Deutscher Wetterdienst (DWD).
     </p>
     <p>
       Display weather conditions and forecast on a map in a quick and simple way.
       Choose between general condition, precipitation radar, cloud cover, wind speed,
-      temperature and hail probability maps (not all supported with all providers).
-      The app also shows the weather at your current location.
+      temperature, UV radiation and hail probability maps (not all supported in all
+      countries). The app also shows the weather at your current location.
     </p>
   </description>
   <screenshots>
     <screenshot>
       <caption>Current weather</caption>
-      <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/Ubuntu-forecast.png</image>
+      <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/en_1_condition.png</image>
     </screenshot>
     <screenshot>
-      <caption>Precipitation</caption>
-      <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/Ubuntu-radar.png</image>
+      <caption>Temperature</caption>
+      <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/en_2_temperature.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Dark Streets Map</caption>
+      <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/en_3_dark.png</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">si.tano.Vremenar.desktop</launchable>
@@ -35,6 +39,7 @@
     <id>si.tano.Vremenar.desktop</id>
   </provides>
   <releases>
+    <release version="0.5.0" date="2022-02-12"/>
     <release version="0.4.0" date="2021-12-29"/>
     <release version="0.3.4" date="2021-07-19"/>
     <release version="0.3.3" date="2021-06-05"/>
