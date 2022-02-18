@@ -39,6 +39,7 @@
     <id>si.tano.Vremenar.desktop</id>
   </provides>
   <releases>
+    <release version="0.5.1" date="2022-02-18"/>
     <release version="0.5.0" date="2022-02-12"/>
     <release version="0.4.0" date="2021-12-29"/>
     <release version="0.3.4" date="2021-07-19"/>
