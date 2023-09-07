@@ -21,8 +21,6 @@ finish-args:
   # Required for notifications in various desktop environments
   - "--talk-name=org.freedesktop.Notifications"
   - "--talk-name=org.kde.StatusNotifierWatcher"
-  # Required due to KDE's special way of handling notifications
-  - "--own-name=org.kde.*"
   # Required for positioning
   - "--system-talk-name=org.freedesktop.GeoClue2"
 cleanup:
