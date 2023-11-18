@@ -1,7 +1,7 @@
 ---
 app-id: si.tano.Vremenar
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: "21.08"
 sdk: org.freedesktop.Sdk
 command: vremenar
 rename-icon: vremenar
@@ -21,23 +21,19 @@ finish-args:
   # Required for notifications in various desktop environments
   - "--talk-name=org.freedesktop.Notifications"
   - "--talk-name=org.kde.StatusNotifierWatcher"
-  # Required due to KDE's special way of handling notifications
-  - "--own-name=org.kde.*"
   # Required for positioning
   - "--system-talk-name=org.freedesktop.GeoClue2"
 cleanup:
-  - '/lib/liba*'
-  - '/lib/libb*'
-  - '/lib/libc*'
-  - '/lib/libd*'
-  - '/lib/libe*'
-  - '/lib/libgc*'
-  - '/lib/libgt*'
-  - '/lib/libl*'
-  - '/lib/libp*'
-  - '/lib/libs*'
-  - '/lib/libx*'
-  - '/lib/libX*'
+  - "/lib/liba*"
+  - "/lib/libb*"
+  - "/lib/libd*"
+  - "/lib/libe*"
+  - "/lib/libgc*"
+  - "/lib/libgt*"
+  - "/lib/libl*"
+  - "/lib/libs*"
+  - "/lib/libx*"
+  - "/lib/libX*"
 modules:
   - name: vremenar
     build-options:
@@ -51,7 +47,7 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/ntadej/Vremenar/releases/download/v0.5.1/Vremenar_0.5.1_x86_64.tar.bz2
-        sha256: 0eb2d5ee9b87d67089a732c7fa6c7801f820f34349fb0fb04dde0d6c06cef334
+        url: https://github.com/ntadej/Vremenar/releases/download/v0.6.0/Vremenar_0.6.0_x86_64.tar.bz2
+        sha256: ecdffd9dac3fbdc2ef8d1a1348ce8569e9d4ab29a81faf53a4de5ed3a037fc46
       - type: file
         path: si.tano.Vremenar.appdata.xml
