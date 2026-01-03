@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>si.tano.Vremenar</id>
   <name>Vremenar</name>
   <summary>Display weather conditions and forecast on a map in a quick and simple way</summary>
   <project_license>GPL-3.0-or-later and MPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer_name>Tadej Novak</developer_name>
+  <developer id="si.tano">
+    <name>Tadej Novak</name>
+  </developer>
   <url type="homepage">https://vremenar.tano.si</url>
   <url type="bugtracker">https://github.com/ntadej/Vremenar/issues</url>
+  <url type="vcs-browser">https://github.com/ntadej/Vremenar</url>
+  <content_rating type="oars-1.1" />
+  <update_contact>tadej@tano.si</update_contact>
+  <launchable type="desktop-id">si.tano.Vremenar.desktop</launchable>
+  <provides>
+    <id>si.tano.Vremenar.desktop</id>
+  </provides>
   <description>
     <p>
       Supported providers are Slovenian Environment Agency (ARSO)
@@ -21,7 +30,7 @@
     </p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <caption>Current weather</caption>
       <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/en_1_condition.png</image>
     </screenshot>
@@ -34,10 +43,6 @@
       <image type="source">https://github.com/ntadej/Vremenar-Media/raw/main/Linux/en_3_dark.png</image>
     </screenshot>
   </screenshots>
-  <launchable type="desktop-id">si.tano.Vremenar.desktop</launchable>
-  <provides>
-    <id>si.tano.Vremenar.desktop</id>
-  </provides>
   <releases>
     <release version="0.6.0" date="2023-11-18"/>
     <release version="0.5.1" date="2022-02-18"/>
@@ -48,6 +53,4 @@
     <release version="0.3.2" date="2021-05-29"/>
     <release version="0.3.1" date="2021-05-24"/>
   </releases>
-  <content_rating type="oars-1.1" />
-  <update_contact>tadej@tano.si</update_contact>
 </component>
